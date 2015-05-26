@@ -6,29 +6,30 @@
 --------------------Configuration: 05_PrintReverseList - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP5FB0.tmp" with contents
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP81E.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/05_PrintReverseList.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "D:\就业交流\求职书籍\剑指offer\书本源代码InterviewQuestions\PrintListInReversedOrder\PrintListInReversedOrder.cpp"
 ]
-Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSP5FB0.tmp" 
-Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP5FC1.tmp" with contents
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSP81E.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP81F.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/05_PrintReverseList.pdb" /debug /machine:I386 /out:"Debug/05_PrintReverseList.exe" /pdbtype:sept 
 ".\Debug\PrintListInReversedOrder.obj"
 ".\Debug\stdafx.obj"
+".\Debug\MyList.obj"
 ]
-Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSP5FC1.tmp"
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSP81F.tmp"
 <h3>Output Window</h3>
 Compiling...
 PrintListInReversedOrder.cpp
-d:\就业交流\求职书籍\剑指offer\书本源代码interviewquestions\printlistinreversedorder\printlistinreversedorder.cpp(8) : fatal error C1083: Cannot open include file: 'MyList.h': No such file or directory
-Error executing cl.exe.
+Linking...
+   Creating library Debug/05_PrintReverseList.lib and object Debug/05_PrintReverseList.exp
 
 
 
 <h3>Results</h3>
-05_PrintReverseList.exe - 1 error(s), 0 warning(s)
+05_PrintReverseList.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
